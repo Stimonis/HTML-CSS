@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<!--exercice pg 11 du site http://fr.learnlayout.com-->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>learnlayout</title>
+
+    <style type="text/css">
+      img {
+        float:right;
+      }
+      .clearfix {
+        overflow: auto;
+        zoom: 1;
+      }
+    </style>
+
+  </head>
+  <body>
+    <img src="ilta.png">
+    <div>
+      Oh oh... cette image est plus grande que l'élément qui la contient, et elle est flottante, donc elle déborde de son conteneur !
+    </div>
+    <div class="clearfix">
+      Beaucoup mieux !
+    </div>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<!--exercice pg 18 du site http://fr.learnlayout.com-->
+
+<!-- !!!! ne marche que pour Chrome-->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>learnlayout</title>
+    <style type="text/css">
+      .container {
+        display: -webkit-flex;
+        display: flex;
+      }
+      nav {
+        width: 250px;
+      }
+      .flex-column {
+        -webkit-flex: 1
+        flex: 1;
+      }
+      .initial {
+        -webkit-flex: initial;
+        flex: initial;
+        width: 200px;
+        min-width: 100px;
+      }
+      .none {
+        -webkit-flex: none;
+        flex: none;
+        width: 200px;
+      }
+      .flex1 {
+        -webkit-flex: 1;
+        flex: 1;
+      }
+      .flex2{
+        -webkit-flex: 2;
+        flex: 2;
+      }
+      .vertical-container {
+        height: 300px;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+    <!--  <nav>
+        <ul>
+          <li>Accueil</li>
+          <li>Menu Taco</li>
+          <li>Projet de liste</li>
+          <li>Horaires</li>
+          <li>Directions</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <div class="flex-column">
+        <section>
+          Flexbox c'est trop facile!
+        </section>
+        <section>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+        </section>
+      </div>
+      <div class="initial">
+        J'ai une largeur de 200px quand il y a la place et je serai réduite à 100px s'il n'y en a pas, mais pas moins.
+      </div>
+      <div class="none">
+        J'aurai toujours une largeur de 200px, peu importe ce qu'il se passe.
+      </div>
+      <div class="flex1">
+        prendrai 1/3 de la place restante.
+      </div>
+      <div class="flex2">
+        prendrai 2/3 de la place restante.
+      </div>-->
+      <div class="vertical-container">
+        <div>
+          Pour finir, c'est facile d'aligner quelque chose verticalement en CSS !
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
