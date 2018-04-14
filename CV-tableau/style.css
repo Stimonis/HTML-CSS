@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin-left: 200px;
+  font-family: Arial;
+}
+
+.david {
+  font-size: 40px;
+  color: #1F87C9;
+  font-weight: bold;
+  font-family: Arial;
+  margin-bottom: 0;
+  margin-top: 4px;
+}
+
+.métier {
+  margin-top:0;
+  font-size: 20px;
+}
+
+table, td, tr {
+0  border: 1px solid blue;
+  border-collapse: collapse;
+}
+
+.resume {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  width: 100px;
+  margin-left: 0px;;
+  background-color: #328BC9;
+  margin-top: 0px;
+  padding-bottom: 1px;
+  padding-top: 10px;
+}
+
+.fa {
+  color:#3586CB;
+}
+
+.titre {
+  font-size: 20px;
+  color: #3089C2;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.espace {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.gras {
+  color : #3089C2;
+  font-weight: bold;
+}
+
+.gauche {
+  text-align: left;
+  font-size: 8px;
+  width: 90px;
+}
+
+.droite {
+  text-align: right;
+  font-size: 8px;
+  width: 90px;
+}
+
+.boite {
+  padding-left: 30px;
+}
+
+.work, .play{
+  background-color: #5997CF;
+  opacity: 0.9;
+  transform: rotate(-65deg);
+  color: white;
+  width: 70px;
+  height: 70px;
+  font-size: 16px;
+}
+
+.work{
+  float: left;
+  line-height: 30px;
+  text-align: center;
+}
+
+.play {
+  margin-left: 50px;
+  line-height: 110px;
+  text-align: left;
+}
+
+.couleur {
+  color : #5997CF
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  padding: 3px;
+}
+
+.progress-bar-fill {
+  display: block;
+  height: 22px;
+  background-color: #3089C2;
+}

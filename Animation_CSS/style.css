@@ -1,0 +1,45 @@
+body {
+  animation: colors 20s linear infinite;
+}
+
+img {
+  position :absolute;
+}
+
+.move {
+  animation: moving 5s linear infinite
+}
+
+@keyframes moving {
+  0% {left: 0px; top: 0px; transform: rotateY(0deg)}
+  25% {left: calc(100% - 210px); top: 0px; transform: rotateY(0deg)}
+  50% {left: calc(100% - 210px);top: calc(100% - 210px); transform: rotateY(180deg)}
+  75% {left: 0;top: calc(100% - 210px)}
+  100%{left: 0px; top: 0px; transform: rotateY(0deg)}
+}
+
+@keyframes colors {
+  0% {background-color: white}
+  5% {background-color: #b6dcf5}
+  10% {background-color: #6ebef0}
+  15% {background-color: #58bcf5}
+  20% {background-color: #139bf0}
+  25% {background-color: #0b82c2}
+  30% {background-color: #0c5a8a}
+  35% {background-color: #076aa8}
+  40% {background-color: #053654}
+  45% {background-color: #073552}
+  50% {background-color: #021b2b}
+}
+
+
+
+
+/*
+@keyframes moving {
+    0%   {background-color:white; left:0px; top:0px;}
+    25%  {background-color:yellow; margin-left:200px; top:0px;}
+    50%  {background-color:blue; margin-left:200px; margin-top:200px;}
+    75%  {background-color:green; margin-left:0px; top:200px;}
+    100% {background-color:red; margin-left:0px; top:0px;}
+}
