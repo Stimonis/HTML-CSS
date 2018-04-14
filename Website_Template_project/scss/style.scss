@@ -1,0 +1,928 @@
+/*page home main*/
+
+/*header - nav*/
+.autour {
+  border-bottom: 1px solid lightgrey;
+  margin: 0;
+}
+
+.grey .fa, .nav a, .grey {
+  color: #797979;
+}
+
+.border_left {
+  border-left: 1px solid lightgrey;
+  padding: 0 10px;
+  height: 40px;
+}
+
+.pad-around {
+  padding: 20px 0;
+}
+
+/*page main section 1*/
+.p1_sec1 {
+  background-image: url("../images/3214321413.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  color: white;
+}
+
+.p1_sec1 button {
+  margin-top: 50px;
+}
+
+/*page main section 2*/
+.taille_300 {
+  height: 300px;
+  margin: 0;
+}
+
+.p1_box1 {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.box1_right {
+  margin-left: 20px;
+}
+
+.bold {
+  font-weight: bold;
+  padding-top: 5px;
+  margin: 0;
+}
+
+/*page main section 3*/
+.p1_sec3 {
+  background-color: #f6f6f6;
+  padding-top: 50px;
+}
+
+.btn-violet {
+  background-color: #0088f8;
+  color: white;
+  font-size: 1em;
+}
+
+.sec3_haut p, .sec3_haut h1, .sec3_haut button {
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+/*page main section 4*/
+.p1_sec4 {
+  height: 800px;
+}
+
+.blue_back {
+  background-color: #0088f8;
+  color: white;
+}
+
+.black_back {
+  background-color: black;
+  color: white;
+}
+
+.noSpace_down {
+  margin-bottom: 0;
+}
+
+.space_down {
+  margin-bottom: 45px;
+}
+
+.space_10 {
+  margin-bottom: 10px;
+}
+
+/*page main section 5*/
+.p1_sec5 {
+  height: 950px;
+  margin-top: 95px;
+}
+
+.divider {
+  margin: 25px 0;
+}
+
+.upper-divider {
+  background: rgba(70,92,255,0.79);
+  position: absolute;
+  width: 100px;
+  height: 3px;
+}
+
+.p1_box2 {
+  margin: 10px 10px;
+  padding: 0;
+}
+
+/*page main section 6*/
+.p1_sec6 {
+  background-color: #f7f7f7;
+  height: 750px;
+  padding-top: 95px;
+}
+
+.p1_box3 {
+  margin: 30px 0 ;
+}
+
+.box3_text {
+  margin: auto;
+  width: 80%;
+}
+
+/*page main section 7*/
+.p1_box4 p {
+  margin: 40px 0;
+}
+
+.img_back {
+  background: linear-gradient(to bottom, rgba(55,62,70,.8),rgba(55,62,70,.8)), url("../images/c-lad9xizbg-tim-gouw.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 600px;
+}
+
+.btn-noBack {
+  border: 1px solid white;
+  background: none;
+  color: white;
+}
+
+/*page main section 8*/
+.p1_sec8 {
+  height: 600px;
+}
+
+.sec8_right {
+  margin-left: 50px;
+  width: 35%;
+}
+
+.text_block {
+  height: 85px;
+  font-size: 0.8em;
+  background: none;
+}
+
+/*page main section 9*/
+.p1_sec9 {
+  background-image: url("../images/sky.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.p1_box5 {
+  width: 200px;
+  height: 170px;
+  margin-right: 40px;
+  padding-top: 20px;
+}
+
+.p1_box5_text {
+  padding-top: 35px;
+  width: 34%;
+}
+
+/*page main section 10*/
+.p1_sec10 {
+  height: 650px;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+.p1_sec10 a {
+  margin-top: 40px;
+  color: black;
+}
+
+.p1_box6 {
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  padding: 25px 0 25px 25px;
+}
+
+.box6_back_left {
+  background-image: url("../images/23545-825x600.jpg");
+}
+
+.box6_back_middle {
+  background-image: url("../images/photography3-825x600.jpg");
+  margin: 0 30px;
+}
+
+.box6_back_right {
+  background-image: url("../images/aaron-burden-55603-825x600.jpg");
+}
+
+.box6_down {
+  padding-left: 25px;
+}
+
+.box6_author {
+  font-size: 0.8em;
+  margin: auto;
+  margin-left: 10px;
+}
+
+/*page main section 11-12*/
+.p1_sec11 .fa {
+  font-size: 2em;
+}
+
+.p1_sec12, .pElement_sec7 {
+  background-color: #0088f8;
+}
+
+/*page main footer*/
+.p1_footer {
+  background-color: #131719;
+  padding: 60px 0;
+}
+
+.p1_footer hr {
+  background: #797979;
+  margin: 0;
+}
+
+.p1_footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  li {
+    padding: 15px 0;
+  }
+  li:first-of-type {
+    padding-top: 0;
+  }
+}
+
+.text-small {
+  font-size: 0.8em;
+}
+
+/*page main copyright*/
+.copyright {
+  background-color: #0b0e0f;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px 0;
+  .copyright_right .fa {
+    color: grey;
+  }
+}
+
+.white {
+  color: white;
+}
+
+/* home minimal */
+
+/*nav*/
+.autour_white {
+    border-bottom: 1px solid white;
+    margin: 0;
+}
+
+.border_left_white {
+  border-left: 1px solid white;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*box 1 min*/
+.font-p {
+  font-size: 15px;
+}
+.color-box1 {
+  background-color: #F7F7F7;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.box1-min {
+  margin:auto;
+  border-bottom: 1px solid lightgrey;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.nav-min {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  ul {
+    li {
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+/* box 2 min*/
+
+.box2-min {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  width: 80%;
+  padding-top: 60px;
+  margin: auto;
+}
+
+.box2-pad {
+  padding-left: 50px;
+  h2 {
+    padding-bottom: 20px;
+    font-size: 35px;
+  }
+  h4 {
+    color: rgba(70,92,255, 1.00);
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  p {
+    font-size: 15px;
+    padding-bottom: 40px;
+  }
+}
+
+.bouton-min {
+  background-color: rgba(70,92,255, 1.00);
+  border-radius: 5px;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  width: 35%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* box 3 min*/
+.box3-min {
+  height: 600px;
+  padding-bottom: 50px;
+}
+
+/*box 4 min*/
+.box4-home-min {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 80px;
+}
+
+.box4-min {
+  box-shadow: 0px 18px 41px 2px lavender;
+  font-size: 15px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  span {
+    font-size: 12px;
+  }
+  h6 {
+    padding-top: 20px;
+  }
+
+}
+ /*fin home minimal*/
+
+/* home about us */
+
+/*header*/
+.header-about {
+  background: linear-gradient(rgba(70,92,255,0.79), rgba(70,92,255,0.79)), url(../images/58dbbc62a29bf9980648106a_seo-manager.jpg);
+  height: 700px;
+    header {
+      height: 40px;
+      color: white;
+      li {
+        a {
+          font-size: 10px;
+        }
+      }
+  }
+  .nav a {
+    color: white;
+  }
+  .dropdown-menu a {
+    color: #797979;
+  }
+}
+
+.nav-min {
+  border-bottom: 1px solid white;
+  a {
+    color: white;
+  }
+}
+.autour-about {
+  border-bottom: 1px solid white;
+  margin: 0;
+}
+
+.grey-about {
+  color: white;
+  .fa {
+    color: white;
+  }
+}
+
+.border_left-about {
+  border-left: 1px solid white;
+  padding: 0 10px;
+  height: 40px;
+}
+
+.header-box {
+  padding-left: 200px;
+  padding-top: 150px;
+  .image-about {
+    padding-bottom: 30px;
+  }
+  h6 {
+    color: #9ED7EC;
+    padding-bottom: 10px;
+  }
+  h1 {
+    font-size: 50px;
+    color: white;
+    padding-bottom: 50px;
+  }
+  .bouton-box {
+    width: 195.13px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    a {
+      vertical-align: middle;
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .bouton-box:hover {
+    background-color: white;
+    a {
+      color: black;
+    }
+  }
+}
+
+/* box 1 about us */
+.box1-about {
+  padding-top: 70px;
+  p {
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+}
+
+.box1-button {
+  width: 220px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  .button-about {
+    background-color: rgba(70,92,255, 1.00);
+    padding: 5px 10px;
+    border-radius: 5px;
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 12px;
+    }
+  }
+  .button-about:hover {
+    background-color: black;
+  }
+}
+
+/* box 2 about us */
+.box2-about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  h2 {
+    padding-bottom: 15px;
+  }
+  p {
+    color: grey;
+    padding-bottom: 20px;
+  }
+  .button-about {
+    background-color: rgba(70,92,255, 1.00);
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 130px;
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 12px;
+    }
+  }
+}
+
+.image-box2 {
+  width: 642px;
+  height: 675px;
+}
+
+.main-about {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.box2 {
+  width: 100%;
+}
+
+/*box 3 about us */
+.box3-about  {
+  padding-left: 0;
+  .image-box3 {
+    width: 656px;
+    height: 892px;
+  }
+  h2 {
+    padding-top: 0;
+  }
+}
+
+.padding-box3 {
+  padding-bottom: 4px;
+  margin: 0;
+}
+
+.padding-bot-box3 {
+  padding-bottom: 25px;
+}
+
+.grey {
+  color: grey;
+}
+
+/* box 4 about us */
+.box4-about {
+  background: linear-gradient(rgba(70,92,255,0.79), rgba(70,92,255,0.79)), url(../images/alisa-kehl-42553-2.jpg);
+  height: 241px;
+  color: white;
+  span {
+    font-size: 28px;
+    padding-bottom: 0;
+  }
+}
+
+/* box 5 about us */
+.box5-about {
+  p {
+    padding-top: 70px;
+    margin-bottom: 0;
+    color: grey;
+  }
+}
+
+/*box 6 about us */
+.box6-about {
+  flex-direction: column;
+  padding-bottom: 50px;
+  p {
+    width: 50%;
+    text-align: center;
+  }
+  span {
+    font-size: 12px;
+    color: grey;
+  }
+  h6 {
+    margin-bottom: 0;
+  }
+}
+
+/* box 7 */
+.box7 {
+  padding-bottom: 50px;
+  p {
+    margin-bottom: 0;
+    color: grey;
+  }
+  .divider{
+    padding-bottom: 15px;
+  }
+  h6 {
+    padding-top: 30px;
+  }
+  span {
+    color: grey;
+    font-size: 15px;
+  }
+  .box7-div {
+    padding-top: 15px;
+    width: 60%;
+    margin: auto;
+  }
+  .fa {
+    color: grey;
+  }
+}
+
+/* box 8 */
+.box8-about {
+  background: linear-gradient(rgba(70,92,255,0.79), rgba(70,92,255,0.79)), url(../images/231§43-2.jpg);
+  height: 403px;
+  form {
+    padding-top: 30px;
+  }
+  h1 {
+    color: white;
+  }
+  .bouton-about {
+    width: 171.69px;
+    height: 38px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    a {
+      vertical-align: middle;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+/*page home section style*/
+.pElement_header {
+  background-image: url("../images/34253245-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  margin: 0;
+}
+
+.p1_sec11, .pElement_sec1, .pElement_sec5, .pBlog_sec3 {
+  height: 300px,
+}
+
+.pElement_sec2, .pElement_sec6, .pPortfolio_sec1, .pPortfolio_sec1-3, .pContact_sec2 {
+  height: 400px;
+}
+
+.pEl_box2 {
+  background-color: white;
+}
+
+.noMargin {
+  margin: 0;
+  padding: 0;
+}
+
+.p1_sec10, .pElement_sec2, .pElement_sec4, .pElement_sec6, .pPhotography_sec2, .pBlog_sec2, .pContact_sec3 {
+  background-color: #f5f5f5;
+}
+
+.pElement_sec4, .pPortfolio2_sec3 {
+  height: 500px;
+}
+
+.pElement_sec7, .pPhotography_sec1, .pPhotography_sec3, .p1_sec12, .pContact_sec3 {
+  height: 200px;
+}
+
+/*page element photography*/
+.pPhotography_header {
+  background: linear-gradient(to bottom, rgba(55,62,70,.8),rgba(55,62,70,.8)), url("../images/324143214.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .nav a {
+    color: white;
+  }
+  .dropdown-menu a {
+    color: #797979;
+  }
+}
+
+.pPhotography_head {
+  height: 600px;
+}
+
+.back_white {
+  background: white;
+}
+
+.pPhotography_sec2 {
+  height: 1250px;
+}
+
+/*page portfolio 1-2*/
+.pPortfolio_box1 {
+  margin-bottom: 30px;
+}
+
+.btn-grey {
+  background: lightgrey;
+  box-shadow: 0px 5px 20px 0px rgba(110,108,110,1);
+}
+
+/*page blog author*/
+.pBlog_sec1 {
+  background: linear-gradient(to bottom, rgba(0,0,255,.8),rgba(0,0,255,.8)), url("../images/alisa-kehl-42553.jpg");
+  height: 800px;
+  h1 {
+    font-family: "Kaushan Script",cursive;
+  }
+}
+
+.pBlog_sec2 {
+  height: 600px;
+  .p1_box2 {
+  padding: 20px 20px;
+  }
+}
+
+.pBLog_abovesec1 {
+  margin-top: -150px;
+}
+
+/*page blog grid*/
+.pBlogGrid_header {
+  background-image: url("../images/2435434-1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  .nav a {
+    color: white;
+  }
+  .dropdown-menu a {
+    color: #797979;
+  }
+}
+
+.upper-divider_white {
+  background: white;
+  position: absolute;
+  width: 100px;
+  height: 3px;
+}
+
+.pBlogGrid_sec1 {
+  background-color: #1a1a1af7;
+  height: 1800px;
+}
+.pad_20 {
+  padding: 20px 20px;
+}
+
+/*page home shop*/
+.pShop_sec1 {
+  background-image: url("../images/shop-fullwidth.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.small_price {
+  font-size: 0.8em;
+}
+
+.pShop_sec2 {
+  height: 1350px;
+}
+
+/*page contact us*/
+.pContact_sec1 {
+  background: linear-gradient(rgba(62, 75, 254, 0.9), rgba(62, 75, 254, 0.9)), url("../images/map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  hr {
+    margin: 20px 0;
+  }
+}
+
+.little_form {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.round {
+  background-color: rgb(62, 75, 254);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+/* home digital agency début */
+.header-digital {
+  background-image: url("../images/231§43.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+    header {
+      height: 40px;
+      color: white;
+      li {
+        a {
+          font-size: 10px;
+        }
+      }
+  }
+  .nav a {
+    color: white;
+  }
+  .dropdown-menu a {
+    color: #797979;
+  }
+}
+
+.header-box {
+  h1 {
+    padding-left: 0;
+    padding-bottom: 40px;
+  }
+}
+
+/* box 1 digital agency */
+
+.media {
+  .fa {
+    color: white;
+    border: 1px solid white;
+    width: 50px;
+    height: 43px;
+    padding-top: 5px;
+  }
+}
+
+.box1-dig-agency {
+  padding-top: 60px;
+  p {
+    margin: 0;
+  }
+  img {
+    margin-bottom: 20px;
+  }
+  .box1 {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .fontsize {
+    font-size: 13px;
+    padding-bottom: 70px;
+  }
+}
+
+/* box 2 digital agency */
+
+.fontsizeplus {
+  font-size: 19px;
+}
+
+.marginauto {
+  margin: auto;
+}
+
+.box2-dig-agency {
+  .dimension {
+    width: 37px;
+    height: 49px;
+  }
+}
+
+/* box 3 digital agency = box 3 about us*/
+
+.paddingplus {
+  padding-bottom: 50px;
+}
+
+.overflownul {
+  overflow: hidden;
+}
+
+/* box 4 digital agency */
+
+.image-box4 {
+  width: 345px;
+  height: 512.52px;
+}

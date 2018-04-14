@@ -1,0 +1,30 @@
+body {
+  margin: 0 auto;
+  padding-top: 15%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.male {
+  color: green;
+}
+
+.female {
+  color: purple;
+}
+
+.ligne2 {
+  background-color: #aaaad1;
+}
+
+td, th, thead {
+  border: 1px solid black;
+  text-align: center;
+}
+
+th {
+  width: 20px;
+}

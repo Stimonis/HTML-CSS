@@ -1,0 +1,94 @@
+body, html {
+  font-family: 'Acme', sans-serif;
+  background: rgba(235,233,249,1);
+  background: -moz-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 41%, rgba(206,199,236,1) 69%, rgba(193,191,234,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 41%, rgba(206,199,236,1) 69%, rgba(193,191,234,1) 100%);
+  background: -o-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 41%, rgba(206,199,236,1) 69%, rgba(193,191,234,1) 100%);
+  background: -ms-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 41%, rgba(206,199,236,1) 69%, rgba(193,191,234,1) 100%);
+  background: linear-gradient(to bottom, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 41%, rgba(206,199,236,1) 69%, rgba(193,191,234,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea', GradientType=0 );
+}
+
+.photo {
+  border-radius: 60%;
+  height: 150px;
+  border: 2px solid grey;
+}
+
+.botton {
+  color: white;
+  transition-duration: 0.4s;
+  background-color: red;
+  padding: 15px 20px;
+  font-size: 13px;
+  margin-bottom: 15px;
+  border: 1px solid grey;
+  border-radius: 8%;
+  font-weight: bold;
+  margin-top: 17px;
+  text-decoration: none;
+
+}
+
+.botton:hover {
+  background-color: white;
+  color: red;
+  box-shadow: 4px 4px 2px #888888;
+}
+
+
+
+.presentation {
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35% ;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: red;
+  font-family: 'Indie Flower';
+}
+
+h2 {
+  text-align: center;
+}
+
+.synopsis {
+  font-size: 12px;
+}
+
+.imgSize {
+  height: 200px;
+}
+
+.social {
+  border-radius: 10px;
+  word-spacing: 50px;
+  background-color: white;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.favoritesmovies {
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.colorGrey {
+  color: grey;
+}

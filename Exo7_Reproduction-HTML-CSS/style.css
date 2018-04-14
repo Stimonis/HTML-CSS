@@ -1,0 +1,207 @@
+/**{
+  outline: 1px solid black;
+}*/
+
+html, body {
+  text-align: center;
+  width: 100%;
+  background-color: grey;
+  margin: auto;
+  font-family: Montserrat;
+}
+
+/*header*/
+header {
+  width: 100%;
+  height: 30px;
+  background-color: #00BFF4;
+  display: flex;
+  color : white;
+  justify-content: space-between;
+}
+
+.headerleft {
+  float: left;
+  padding-left: 3em;
+  padding-top: 10px;
+}
+
+.headeright {
+  font-size: 12px;
+  align-self: flex-end;
+  text-decoration: none;
+  color: white;
+  padding-right: 2em;
+  padding-top: 2px;
+}
+
+nav {
+  padding-top: 10px;
+}
+/*fin header*/
+
+/*titre*/
+.titre {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  background-color: #00BFF4;
+  color: white;
+  flex-direction: column;
+}
+
+h1, h3 {
+  align-self: flex-start;
+  padding-left: 50px;
+}
+
+h1 {
+  padding-top: 60px;
+  margin-bottom: 0;
+  font-size: 50px;
+}
+
+h3 {
+  margin-top: 0;
+}
+/*fin titre*/
+
+/*premier section*/
+.prempara {
+  background-color: white;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.premparadiv {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.premparadiv div {
+  width: 45%;
+}
+
+.premparadiv div h4 {
+  margin-bottom: 5px;
+}
+
+.premparadiv div p {
+  font-size: 13px;
+}
+
+.fa {   /*icônes dans premier paragraphe*/
+  color: #00BFF4;
+}
+
+h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+  align-self: center;
+}
+
+h4 {
+  margin-top: 0;
+  align-self: center;
+}
+/*fin premier section*/
+
+/*deuxième section*/
+.astro {
+  background-color: #ccc5c5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.astro p{
+  margin-top: 0;
+}
+
+.image {
+  width: 130px;
+  height: 130px;
+  /*float: right;*/
+  border-radius: 80px;
+}
+
+.deupara {
+  font-size: 13px;
+  width: 60%;
+  padding-left: 15%;
+}
+/*fin deuxième section*/
+
+/*début troisième section*/
+.troipara {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 15px;
+  background-color: white;
+  height: 400px;
+}
+
+.tableau {
+  align-self: center;
+  font-size: 10px;
+  width: 75%;
+  height: 75%
+}
+
+.troipara h2 {
+  padding-top: 4px;
+}
+
+.troipara p {
+  margin-top: 0;
+}
+/*fin troisème section*/
+
+/*quatrième section*/
+.quapara {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #00BFF4;
+}
+
+.quapara section {
+  padding-left: auto;
+  font-size: 30px;
+  color: white;
+}
+
+.bouton {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 21px;
+  display: inline-block;
+  border-radius: 28px;
+  background-color: #00BFF4;
+  text-decoration: none;
+  color:white;
+  border: 2px solid white;
+}
+/*fin quatrième section*/
+
+/*footer*/
+footer {
+  font-size: 10px;
+  background-color: #00BFF4;
+}
+
+td p {
+  padding-top: 10px;
+}
