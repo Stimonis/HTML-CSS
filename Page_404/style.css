@@ -1,0 +1,81 @@
+body, html {
+  background-color: #E7F9AC;
+  margin: auto;
+}
+
+header {
+  background-image: url(Images.jpg);
+  height: 550px;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 100px;
+  padding-top: 25%;
+  left: 28%;
+  text-transform: uppercase;
+  animation-name: zoomIn;
+  animation-duration: 5s;
+  color: #890707;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  animation-name: zoomIn;
+  animation-duration: 7s;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  animation-name: zoomIn;
+}
+
+.button {
+  background: #b83737;
+  background-image: -webkit-linear-gradient(top, #b83737, #2980b9);
+  background-image: -moz-linear-gradient(top, #b83737, #2980b9);
+  background-image: -ms-linear-gradient(top, #b83737, #2980b9);
+  background-image: -o-linear-gradient(top, #b83737, #2980b9);
+  background-image: linear-gradient(to bottom, #b83737, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 3px #290529;
+  -moz-box-shadow: 0px 1px 3px #290529;
+  box-shadow: 0px 1px 3px #290529;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: block;
+  margin : auto;
+  width:6%;
+
+}
+
+
+.button:hover {
+  background: #126fa8;
+  background-image: -webkit-linear-gradient(top, #126fa8, #0f0f0f);
+  background-image: -moz-linear-gradient(top, #126fa8, #0f0f0f);
+  background-image: -ms-linear-gradient(top, #126fa8, #0f0f0f);
+  background-image: -o-linear-gradient(top, #126fa8, #0f0f0f);
+  background-image: linear-gradient(to bottom, #126fa8, #0f0f0f);
+  text-decoration: none;
+  transform:scale(1.10);
+}
