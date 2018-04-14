@@ -1,0 +1,55 @@
+/*css accueil.html*/
+body {
+  background-color: #b3bfbf;
+}
+
+h1 {
+  font-family: Ranchers;
+  text-align: center;
+}
+
+.padbott {
+  padding-bottom: 10px;
+}
+
+.photo {
+  text-align: center;
+}
+
+/*fin accueil*/
+
+.imageresto {
+  vertical-align: middle;
+}
+
+.centrer {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+  width: 70px;
+}
+
+.right {
+  text-align: left;
+  width: 90px;
+}
+
+.collapsed {
+  color: black;
+}
+
+.collapsed:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.card-header a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-header a:hover {
+  color: grey;
+}

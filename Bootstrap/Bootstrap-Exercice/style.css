@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+.container {
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.div1 {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #D897EE;
+  border: 1px solid black;
+}
